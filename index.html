@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QBite</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2>QBite</h2>
+  <button id="darkToggle">🌙</button>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="heroSection">
+  <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" id="heroImg">
+
+  <div class="hero-text">
+    <h1>Hungry? We've got you Covered!</h1>
+    <p>Fresh • Fast • Delivered</p>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories">
+  <h2>Browse Categories</h2>
+  <div class="cat-grid">
+    <div class="cat-card">🍕 Pizza</div>
+    <div class="cat-card">🍔 Burgers</div>
+    <div class="cat-card">🥤 Drinks</div>
+    <div class="cat-card">🍰 Desserts</div>
+  </div>
+</section>
+
+<!-- OFFERS -->
+<section class="offers">
+  <h2>🔥 Today's Offers</h2>
+  <div class="offer-grid">
+    <div class="offer-box">Buy 1 Get 1 Free 🍔</div>
+    <div class="offer-box">20% OFF on Pizza 🍕</div>
+    <div class="offer-box">Free Drink with Combo 🥤</div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu">
+  <h2>Our Menu</h2>
+  <div class="menu-grid" id="menuGrid"></div>
+</section>
+
+<div class="floating-cart">
+  🛒 <span id="cartCount">0</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
